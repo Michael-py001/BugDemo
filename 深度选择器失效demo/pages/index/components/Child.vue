@@ -2,6 +2,7 @@
   <image class="my-image" :src="src" mode="aspectFill"></image>
 </template>
 
+
 <script setup>
   const props = defineProps({
     src:String
